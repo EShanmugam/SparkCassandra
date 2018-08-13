@@ -14,9 +14,9 @@ object SparkCassandra extends App {
   override def main(args: Array[String]): Unit = {
 
     val conf = new SparkConf(true)
-      .set("spark.cassandra.connection.host","10.50.255.247")
-      .set("spark.cassandra.auth.username", "root")
-      .set("spark.cassandra.auth.password", "xerago@999")
+      .set("spark.cassandra.connection.host","Ipaddress")
+      .set("spark.cassandra.auth.username", "1234")
+      .set("spark.cassandra.auth.password", "12345")
       .setAppName("CassandraSpark").setMaster("local[*]")
       .set("spark.cassandra.connection.port", "9042")
 
