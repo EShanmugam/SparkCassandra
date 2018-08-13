@@ -1,0 +1,2 @@
+# SparkCassandra
+SparkCassandraBasicConnection
