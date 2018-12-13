@@ -22,9 +22,9 @@ object SparkCassandra extends App {
     val log = LogManager.getRootLogger
     log.setLevel(Level.WARN)
     val conf = new SparkConf(true)
-      .set("spark.cassandra.connection.host","10.50.255.247")
+      .set("spark.cassandra.connection.host","IP")
       .set("spark.cassandra.auth.username", "root")
-      .set("spark.cassandra.auth.password", "xerago@999")
+      .set("spark.cassandra.auth.password", "1722")
       .setAppName("CassandraSpark").setMaster("local[*]")
       .set("spark.cassandra.connection.port", "9042")
     log.warn("Hello demo")
